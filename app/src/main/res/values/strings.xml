@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">RecyclerView</string>
+
+    <string name="pempek">Pempek Teri dan Kuah Cuko</string>
+    <string name="bahan">2 cup beras ketan putih
+            3 cup takaran beras air biasa
+            1 bungkus santan kara (65ml)
+            2 lembar daun pandan
+            1/4 sdt garam
+            Bahan Vla*
+            300 ml air biasa
+            1 bungkus santan kara (65 ml)
+            3 sdt gula pasir
+            1/4 sdt garam
+            Sejumput bubuk vanili
+            1 sdm tepung maizena
+            Toping*
+            secukupnya Mangga
+            secukupnya Wijen sangrai
+            secukupnya Keju </string>
+    <string name="save">Simpan</string>
+    <string name="image">Image food</string>
+
+    <integer-array name="data_image_food">
+        <item>@drawable/kue_nona</item>
+        <item>@drawable/mochi</item>
+        <item>@drawable/mangga_ketan</item>
+        <item>@drawable/salad</item>
+        <item>@drawable/chiken_steak</item>
+        <item>@drawable/soto_betawi</item>
+    </integer-array>
+
+    <string-array name="data_food">
+        <item>Kue nona manis </item>
+        <item>Mochi Lava aka Mochi Lumer|Makanan Kekinian|Ide bakulan </item>
+        <item>Mango sticky rice / mangga ketan vla </item>
+        <item>Salad Buah </item>
+        <item>Chicken Steak Viral </item>
+        <item>Soto Betawi</item>
+
+    </string-array>
+
+    <string-array name="data_Bahan">
+        <item>  500 ml santan kental
+                6 sdm terigu
+                Sejumput garam
+                250 ml santan kental
+                40 gram gula pasir (2 sdm)
+                30 gram maizena (2,5 sdm)
+                1 sdt pasta pandan (secukupnya)
+                Sejumput garam
+                250 ml santan kental
+                1 butir telur
+                80 gram gula pasir (4 sdm)
+                140 gram terigu (1 gelas blimbing + 1 sdm munjung)</item>
+
+        <item>  250 gr tepung ketan putih
+                10 gr tepung maizena
+                Secukupnya garam
+                65 gr gula pasir
+                1 bungkus SKM putih dicampur air total jadi 375ml
+                1 sdm pasta susu
+                3 sdm minyak goreng
+                Secukupnya maizena sangrai untuk baluran
+                🌻 Saos coklat 🌻
+                1 bungkus MyVla instan, bebas mau rasa vanila atau coklat
+                300 ml air, bisa diganti susu cair kalo mau
+                40-50 gr DCC
+                1 sdm coklat bubuk
+                1-2 sdm gula pasir, sesuai selera</item>
+
+        <item> 2 cup beras ketan putih
+            3 cup takaran beras air biasa
+            1 bungkus santan kara (65ml)
+            2 lembar daun pandan
+            1/4 sdt garam
+            Bahan Vla*
+            300 ml air biasa
+            1 bungkus santan kara (65 ml)
+            3 sdt gula pasir
+            1/4 sdt garam
+            Sejumput bubuk vanili
+            1 sdm tepung maizena
+            Toping*
+            secukupnya Mangga
+            secukupnya Wijen sangrai
+            secukupnya Keju  </item>
+
+        <item> 30 bh anggur
+            20 bh strawberry 1 bh kiwi
+            2 bh apel fuji
+            Secukupnya nata de coco
+            Secukupnya keju parut
+            BAHAN SAOS :
+            300 ml mayonaise
+            450 gr yogurt plain
+            160 gr SKM
+        </item>
+
+        <item>  1 Potong Paha Ayam Tanpa Tulang
+                1 Buah Wortel (Potong Panjang)
+                6 Buah Buncis (Potong Panjang)
+                1 Buah Kentang (Potong Panjang)
+                1 Bungkus Bumbu Baberque (Aku Del Monte)
+                Secukupnya Lada Hitam
+                Secukupnya Air
+                Secukupnya Gula
+                Secukupnya Garam / Penyedap
+                Secukupnya Saus Tomat
+                Secukupnya Butter / Margarine
+
+        </item>
+        <item>
+            500 gr daging sengkel
+            100 ml santan kental
+            450 ml susu uht plan
+            2 sdm minyak samin (WAJIB)
+            500 gr kentang
+            4 buah tomat merah potong
+            3 batang sereh geprek
+            3 lbr daun salam
+            2 lbr daun jeruk
+            3 cm lengkuas geprek
+            4 cm kayu manis
+            1 sdt lada bubuk
+            secukupnya penyedap bubuk
+            Bumbu Halus
+            10 siung bawang merah
+            10 siung bawang putih
+            5 butir kemiri
+            2 sdm ketumbar
+            1/2 sdr jinten
+            3 ruas jahe
+        </item>
+    </string-array>
+
+
+    <string-array name="data_deskripsi">
+        <item>Kue nona manis </item>
+        <item>Mochi Lava aka Mochi Lumer|Makanan Kekinian|Ide bakulan </item>
+        <item>Mango sticky rice / mangga ketan vla </item>
+        <item>Salad Buah </item>
+        <item>Chicken Steak Viral </item>
+        <item>Soto Betawi</item>
+
+    </string-array>
+</resources>

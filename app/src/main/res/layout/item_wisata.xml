@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        tools:ignore="TextSizeCheck">
+
+        <!-- ImageView untuk gambar makanan -->
+        <ImageView
+            android:id="@+id/img_food"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:contentDescription="@string/image"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pempek"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- TextView untuk nama makanan -->
+        <TextView
+            android:id="@+id/tvNameFood"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/poppins_semi_bold"
+            android:text="@string/pempek"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toStartOf="@+id/imageView2"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintStart_toEndOf="@id/img_food"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- TextView untuk bahan-bahan -->
+        <TextView
+            android:id="@+id/tvIngredients"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="16dp"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:fontFamily="@font/poppins_regular"
+            android:text="2 cup beras ketan putih, 3 cup takaran beras air biasa, 1 bungkus santan kara (65ml), 2 lembar daun pandan, 1/4 sdt garam, Bahan Vla: 300 ml air biasa, 1 bungkus santan kara (65 ml), 3 sdt gula pasir, 1/4 sdt garam, Sejumput bubuk vanili, 1 sdm tepung maizena, Toping: secukupnya Mangga, secukupnya Wijen sangrai, secukupnya Keju"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/img_food"
+            app:layout_constraintTop_toBottomOf="@id/tvNameFood" />
+
+        <!-- ImageView untuk bookmark/simpan -->
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:contentDescription="@string/save"
+            android:src="@drawable/bormark_border"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>
