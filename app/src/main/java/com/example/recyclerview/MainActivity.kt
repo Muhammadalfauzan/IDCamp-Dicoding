@@ -18,31 +18,35 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        // Inflating layout with ViewBinding
+
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        // Setting Toolbar as ActionBar
+
         setSupportActionBar(binding.toolbar)
 
-        // Initialize RecyclerView and Adapter
         adapterRecipe = AdapterRecipe()
         binding.rvRecipe.apply {
             layoutManager = LinearLayoutManager(this@MainActivity)
             adapter = adapterRecipe
         }
 
-        // Load data into RecyclerView
+        adapterRecipe.setOnItemClickListener(object : AdapterRecipe.OnItemClickAdapter {
+            override fun onItemClick(data: DataRecipe) {
+                val intent = Intent(this@MainActivity, DetailActivity::class.java)
+                intent.putExtra("recipe", data)
+                startActivity(intent)
+            }
+        })
+
         loadData()
     }
 
-    // Inflate menu for toolbar
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.acction_setting, menu)
         return true
     }
 
-    // Handle menu item selection
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
             R.id.action_about -> {

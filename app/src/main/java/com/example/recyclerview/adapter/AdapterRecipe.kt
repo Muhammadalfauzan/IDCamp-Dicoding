@@ -15,19 +15,19 @@ class AdapterRecipe : ListAdapter<DataRecipe, AdapterRecipe.ListViewHolder>(DIFF
 
     private lateinit var onItemClickAdapter: OnItemClickAdapter
 
-    // ViewHolder untuk item layout
+
     inner class ListViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         private val imageFood: ImageView = itemView.findViewById(R.id.img_food)
         private val nameFood: TextView = itemView.findViewById(R.id.tvNameFood)
         private val ingredients: TextView = itemView.findViewById(R.id.tvIngredients)
 
-        // Fungsi untuk mengikat data ke view
+
         fun bind(data: DataRecipe) {
             imageFood.setImageResource(data.imageFood)
             nameFood.text = data.nameFood
             ingredients.text = data.ingredients
 
-            // Atur klik listener untuk item
+
             itemView.setOnClickListener {
                 onItemClickAdapter.onItemClick(data)
             }
@@ -48,8 +48,8 @@ class AdapterRecipe : ListAdapter<DataRecipe, AdapterRecipe.ListViewHolder>(DIFF
 
     // Menghubungkan data dengan ViewHolder
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
-        val recipe = getItem(position) // Dapatkan item data
-        holder.bind(recipe) // Panggil fungsi bind() di ViewHolder
+        val recipe = getItem(position)
+        holder.bind(recipe)
     }
 
     // Interface untuk menangani klik item
@@ -61,12 +61,11 @@ class AdapterRecipe : ListAdapter<DataRecipe, AdapterRecipe.ListViewHolder>(DIFF
     companion object {
         val DIFF_CALLBACK = object : DiffUtil.ItemCallback<DataRecipe>() {
             override fun areItemsTheSame(oldItem: DataRecipe, newItem: DataRecipe): Boolean {
-                // Cek apakah item adalah objek yang sama (misalnya berdasarkan ID atau nama)
+
                 return oldItem.nameFood == newItem.nameFood
             }
 
             override fun areContentsTheSame(oldItem: DataRecipe, newItem: DataRecipe): Boolean {
-                // Cek apakah konten item sama persis
                 return oldItem == newItem
             }
         }

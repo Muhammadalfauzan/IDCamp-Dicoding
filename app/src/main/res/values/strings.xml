@@ -1,25 +1,45 @@
 <resources>
     <string name="app_name">RecyclerView</string>
+    <string name="nama">Muhammad Alfauzan</string>
+    <string name="email">muhmmadalfauzan254@gmail.com</string>
 
     <string name="pempek">Pempek Teri dan Kuah Cuko</string>
-    <string name="bahan">2 cup beras ketan putih
-            3 cup takaran beras air biasa
-            1 bungkus santan kara (65ml)
-            2 lembar daun pandan
-            1/4 sdt garam
-            Bahan Vla*
-            300 ml air biasa
-            1 bungkus santan kara (65 ml)
-            3 sdt gula pasir
-            1/4 sdt garam
-            Sejumput bubuk vanili
-            1 sdm tepung maizena
-            Toping*
-            secukupnya Mangga
-            secukupnya Wijen sangrai
-            secukupnya Keju </string>
+    <string name="logo">Logo</string>
+    <string name="bg">background</string>
+    <string name="kue">Kue Nona Manis</string>
+    <string name="profile">Profile</string>
+
+    <string name="cara_membuat"><![CDATA[ 1 : Campur telur dan gula pasir aduk rata masukan terigu dan garam tuang santan aduk rata lalu saring sisihkan dahulu\n
+        2 : campur maizena, gula pasir, garam tuang santan lalu aduk rata masukan pasta pandan aduk sampai tercampur rata\n
+        Masak dengan api sedang sampai meletup letup lalu campur bahan 1 yang tadi aduk rata, ini sy pindah wadah krn ga muat 😊 sisihkan dahulu\n
+        di panci campur terigu, gula pasir dan garam tuang santan aduk rata masak dengan api sedang sambil terus diaduk sampai meletup letup\n
+        Tuang bahan 3 ke dalam botol kecap untuk mempermudah saat menuang, oles cetakan dengan minyak goreng\n
+        Isi cetakan dengan warna hijau sebanyak 3/4 tinggi cetakan lalu semprotkan warna putih ditengah2 warna hijau\n
+        Kukus selama 20-25 menit dengan api sedang setelah matang angkat biarkan hangat baru keluarkan dari cetakan\n
+        Waktunya menghidangkang selamat mencoba..
+        ]]></string>
+
+    <string name="bahan"><![CDATA[
+            - 2 cup beras ketan putih\n
+            - 3 cup takaran beras air biasa\n
+           - 1 bungkus santan kara (65ml)\n
+           - 2 lembar daun pandan\n
+           - 1/4 sdt garam\n
+           - Bahan Vla*\n
+           - 300 ml air biasa\n
+           - 1 bungkus santan kara (65 ml)\n
+           - 3 sdt gula pasir\n
+           - 1/4 sdt garam\n
+           - Sejumput bubuk vanili\n
+           - 1 sdm tepung maizena\n
+            \t\tToping\n
+           - secukupnya Mangga\n
+           - secukupnya Wijen sangrai\n
+           - secukupnya Keju ]]></string>
     <string name="save">Simpan</string>
     <string name="image">Image food</string>
+    <string name="cara_membuatt">Cara Membuat</string>
+    <string name="bahan_bahan">Bahan-Bahan :</string>
 
     <integer-array name="data_image_food">
         <item>@drawable/kue_nona</item>
@@ -28,6 +48,10 @@
         <item>@drawable/salad</item>
         <item>@drawable/chiken_steak</item>
         <item>@drawable/soto_betawi</item>
+        <item>@drawable/pudding</item>
+        <item>@drawable/udang</item>
+        <item>@drawable/fillet</item>
+        <item>@drawable/dadar_gulung</item>
     </integer-array>
 
     <string-array name="data_food">
@@ -37,111 +61,237 @@
         <item>Salad Buah </item>
         <item>Chicken Steak Viral </item>
         <item>Soto Betawi</item>
+        <item>Pudding Caramel Kukus</item>
+        <item>Udang Saus Tiram</item>
+        <item>Fillet Ayam Marinasi Saus Asam Manis</item>
+        <item>Dadar gulung isi kelapa</item>
 
     </string-array>
 
     <string-array name="data_Bahan">
-        <item>  500 ml santan kental
-                6 sdm terigu
-                Sejumput garam
-                250 ml santan kental
-                40 gram gula pasir (2 sdm)
-                30 gram maizena (2,5 sdm)
-                1 sdt pasta pandan (secukupnya)
-                Sejumput garam
-                250 ml santan kental
-                1 butir telur
-                80 gram gula pasir (4 sdm)
-                140 gram terigu (1 gelas blimbing + 1 sdm munjung)</item>
+        <item> <![CDATA[
+                500 ml santan kental\n
+                6 sdm terigu\n
+                Sejumput garam\n
+                250 ml santan kental\n
+                40 gram gula pasir (2 sdm)\n
+                30 gram maizena (2,5 sdm)\n
+                1 sdt pasta pandan (secukupnya)\n
+                Sejumput garam\n
+                250 ml santan kental\n
+                1 butir telur\n
+                80 gram gula pasir (4 sdm)\n
+                140 gram terigu (1 gelas blimbing + 1 sdm munjung)]]></item>
 
-        <item>  250 gr tepung ketan putih
-                10 gr tepung maizena
-                Secukupnya garam
-                65 gr gula pasir
-                1 bungkus SKM putih dicampur air total jadi 375ml
-                1 sdm pasta susu
-                3 sdm minyak goreng
-                Secukupnya maizena sangrai untuk baluran
-                🌻 Saos coklat 🌻
-                1 bungkus MyVla instan, bebas mau rasa vanila atau coklat
-                300 ml air, bisa diganti susu cair kalo mau
-                40-50 gr DCC
-                1 sdm coklat bubuk
-                1-2 sdm gula pasir, sesuai selera</item>
+        <item> <![CDATA[
+                250 gr tepung ketan putih\n
+                10 gr tepung maizena\n
+                Secukupnya garam\n
+                65 gr gula pasir\n
+                1 bungkus SKM putih dicampur air total jadi 375ml\n
+                1 sdm pasta susu\n
+                3 sdm minyak goreng\n
+                Secukupnya maizena sangrai untuk baluran\n
+                Saos coklat\n
+                1 bungkus MyVla instan, bebas mau rasa vanila atau coklat\n
+                300 ml air, bisa diganti susu cair kalo mau\n
+                40-50 gr DCC\n
+                1 sdm coklat bubuk\n
+                1-2 sdm gula pasir, sesuai selera ]]></item>
 
-        <item> 2 cup beras ketan putih
-            3 cup takaran beras air biasa
-            1 bungkus santan kara (65ml)
-            2 lembar daun pandan
-            1/4 sdt garam
-            Bahan Vla*
-            300 ml air biasa
-            1 bungkus santan kara (65 ml)
-            3 sdt gula pasir
-            1/4 sdt garam
-            Sejumput bubuk vanili
-            1 sdm tepung maizena
-            Toping*
-            secukupnya Mangga
-            secukupnya Wijen sangrai
-            secukupnya Keju  </item>
+        <item> <![CDATA[
+            2 cup beras ketan putih\n
+            3 cup takaran beras air biasa\n
+            1 bungkus santan kara (65ml)\n
+            2 lembar daun pandan\n
+            1/4 sdt garam\n
+            300 ml air biasa\n
+            1 bungkus santan kara (65 ml)\n
+            3 sdt gula pasir\n
+            1/4 sdt garam\n
+            Sejumput bubuk vanili\n
+            1 sdm tepung maizena\n
+            secukupnya Mangga\n
+            secukupnya Wijen sangrai\n
+            secukupnya Keju ]]> </item>
 
-        <item> 30 bh anggur
-            20 bh strawberry 1 bh kiwi
-            2 bh apel fuji
-            Secukupnya nata de coco
-            Secukupnya keju parut
-            BAHAN SAOS :
-            300 ml mayonaise
-            450 gr yogurt plain
+        <item> <![CDATA[
+            30 bh anggur\n
+            20 bh strawberry 1 bh kiwi\n
+            2 bh apel fuji\n
+            Secukupnya nata de coco\n
+            Secukupnya keju parut\n
+            300 ml mayonaise\n
+            450 gr yogurt plain\n
             160 gr SKM
-        </item>
+         ]]></item>
 
-        <item>  1 Potong Paha Ayam Tanpa Tulang
-                1 Buah Wortel (Potong Panjang)
-                6 Buah Buncis (Potong Panjang)
-                1 Buah Kentang (Potong Panjang)
-                1 Bungkus Bumbu Baberque (Aku Del Monte)
-                Secukupnya Lada Hitam
-                Secukupnya Air
-                Secukupnya Gula
-                Secukupnya Garam / Penyedap
-                Secukupnya Saus Tomat
+        <item><![CDATA[
+                1 Potong Paha Ayam Tanpa Tulang\n
+                1 Buah Wortel (Potong Panjang)\n
+                6 Buah Buncis (Potong Panjang)\n
+                1 Buah Kentang (Potong Panjang)\n
+                1 Bungkus Bumbu Baberque (Aku Del Monte)\n
+                Secukupnya Lada Hitam\n
+                Secukupnya Air\n
+                Secukupnya Gula\n
+                Secukupnya Garam / Penyedap\n
+                Secukupnya Saus Tomat\n
                 Secukupnya Butter / Margarine
+                ]]>
+        </item>
+        <item><![CDATA[
+            500 gr daging sengkel\n
+            100 ml santan kental\n
+            450 ml susu uht plan\n
+            2 sdm minyak samin (WAJIB)\n
+            500 gr kentang\n
+            4 buah tomat merah potong\n
+            3 batang sereh geprek\n
+            3 lbr daun salam\n
+            2 lbr daun jeruk\n
+            3 cm lengkuas geprek\n
+            4 cm kayu manis\n
+            1 sdt lada bubuk\n
+            secukupnya penyedap bubuk\n
+            \tBumbu Halus\n
+            10 siung bawang merah\n
+            10 siung bawang putih\n
+            5 butir kemiri\n
+            2 sdm ketumbar\n
+            1/2 sdr jinten\n
+            3 ruas jahe
+        ]]></item>
+        <item> 3 SDM gula pasir\n
+            2 SDM air panas>\n
+            2 butir telur\n
+            250 ml Susu Cair fullcream\n
+            4 SDM susu kental manis\n
+            1 SDT pasta vanila</item>
 
+        <item>
+            250 gram udang\n
+            1 buah wortel\n
+            1/2 bawang bombay\n
+            8 butir bawang putih\n
+            1 cabe merah (jika ingin pedas tambahkan 5 rawit merah)\n
+            1/2 tomat\n
+            2 SDM saus tiram\n
+            Garam, gula, penyedap
         </item>
         <item>
-            500 gr daging sengkel
-            100 ml santan kental
-            450 ml susu uht plan
-            2 sdm minyak samin (WAJIB)
-            500 gr kentang
-            4 buah tomat merah potong
-            3 batang sereh geprek
-            3 lbr daun salam
-            2 lbr daun jeruk
-            3 cm lengkuas geprek
-            4 cm kayu manis
-            1 sdt lada bubuk
-            secukupnya penyedap bubuk
-            Bumbu Halus
-            10 siung bawang merah
-            10 siung bawang putih
-            5 butir kemiri
-            2 sdm ketumbar
-            1/2 sdr jinten
-            3 ruas jahe
+            250 gram fillet dada ayam\n
+            1/2 sachet bumbu marinasi desaku\n
+            1 sdm air\n
+            1 sdm maizen\n
+            1/4 bawang bombay\n
+            1/4 paprika kuning\n
+            1/4 paprika merah\n
+            1/4 paprika hijau\n
+            1 sdm margarin\n
+            1,5 sdm saus tomat\n
+            1/2 sdt cuka\n
+            1/2 sdm gula\n
+            1/2 sdm kecap asin\n
+            1/2 sdt maizena\n
+            1/4 sdt lada bubuk\n
+            70 ml air\n
+            1/4 sdt bawang putih bubuk\n
+            Toping 1 sdm wijen sangrai\n
+        </item>
+        <item>
+            250 gr tepung terigu\n
+            20 gr tepung tapioka\n
+            65 ml santan cair (kara/sasa)\n
+            600 ml air\n
+            10 ml minyak goreng\n
+            1 butir telur ayam\n
+            Bahan unti kelapa\n
+            4 pcs Gula merah\n
+            1/2 butir kelapa parut\n
+            100 gr gula putih\n
+            secukupnya Air\n
+            Sejumput garam
         </item>
     </string-array>
 
 
     <string-array name="data_deskripsi">
-        <item>Kue nona manis </item>
-        <item>Mochi Lava aka Mochi Lumer|Makanan Kekinian|Ide bakulan </item>
-        <item>Mango sticky rice / mangga ketan vla </item>
-        <item>Salad Buah </item>
-        <item>Chicken Steak Viral </item>
-        <item>Soto Betawi</item>
+        <item>
+        Campur telur dan gula pasir aduk rata masukan terigu dan garam tuang santan aduk rata lalu saring sisihkan dahulu\n
+        Campur maizena, gula pasir, garam tuang santan lalu aduk rata masukan pasta pandan aduk sampai tercampur rata\n
+        Masak dengan api sedang sampai meletup letup lalu campur bahan 1 yang tadi aduk rata, ini sy pindah wadah krn ga muat 😊 sisihkan dahulu\n
+        Buat bahan 3 : di panci campur terigu, gula pasir dan garam tuang santan aduk rata masak dengan api sedang sambil terus diaduk sampai meletup letup\n
+        Tuang bahan 3 ke dalam botol kecap untuk mempermudah saat menuang, oles cetakan dengan minyak goreng\n
+        Isi cetakan dengan warna hijau sebanyak 3/4 tinggi cetakan lalu semprotkan warna putih ditengah2 warna hijau\n
+        Kukus selama 20-25 menit dengan api sedang setelah matang angkat biarkan hangat baru keluarkan dari cetakan\n
+        Waktunya menghidangkang selamat mencoba..
+        </item>
+        <item>
+        Siapkan semua bahan - bahan yang di perlukan\n
+        Kupas mangga kemudian, blender mangga hingga menjadi Pure mangga yang halus.
+        Lalu kemudian campurkan kedalam panci pure mangga, gula pasir rose brand, dan air perasaan jeruk lemon.\n
+        Masak pure Mangga tadi dengan api kecil hingga meletup - letup dan sedikit mengental kemudian matikan api, Biarkan uap panas nya hilang sisihkan.
+        Setelah pure mangganya suhu ruang, kocok dengan mixer whipped cream, air es, bubuk agar² dan pure mangga hingga menyatu dan tercampur rata.
+        Lalu setelah tercampur rata kemudian masukan isian kedalam plastik segitiga agar nanti memudahkan saat pengisian mochinya. Lalu masukan kedalam lemari pendingin agar lebih set (aku taruh semalaman)\n
+        Lalu membuat kulit mochinya : Masukan semua bahan kulit kedalam wadah lalu aduk menggunakan whis hingga tercampur rata semua bahannya kemudian saring agar tak ada adonan yang menggumpal.\n
+        Setelah disaring kemudian masukan kedalam wadah anti panas dan kemudian tutupi wadah adonan kulit dengan plastik wrap, lalu tusuk² dengan tusuk gigi dibeberapa titik. Setelah itu kukus adonan kulit selama ± 30 - 35 menit.
+        Setelah matang biarkan uap panasnya hilang, susihkan.\n
+        Setelah hilang uap panasnya tambahkan margarin lalu uleni dengan tangan (cara menguleni adonan mochi yaitu dengan menarik adonan mochi hingga beberapa kali agar adonan menjadi kalis) lalu istirahat adonan mochi selama ±15 menit di tutup dengan plasti wrap. Lalu timbang adonan kulit mochi (± 25 gr) agar beratnya sama semua lalu rolling adonan.\n
+        Kemudian bentuk adonan kulit yang kemudiannya beri isian mochinya. Bulat²kan kembali.\n
+        Mochi Mangga pun siap untuk di sajikan dingin lebih enak lho😁</item>
+        <item>Cuci beras ketan seperti biasa masak nasi, setelah bersih lalu tambahkan air+santan, garam dan daun pandan. Saya menggunakan rice cooker untuk memasak ketannya.\n
+        Sembari menunggu ketannya matang, kita buat vla nya. Didihkan air+santan, tambahkan gula, garam dan vanili bubuk. Setelah mendidih baru tambahkan larutan tepung maizena aduk hingga matang, lalu sisihkan.\n
+        Sajikan dipiring ketannya, kasih toping mangga potong sesuia selera, wijen sangrai/keju parut lalu sirim dengan vla. Siap disantap🤤</item>
+        <item>Cuci semua buah. Potong buah sesuai selera.\n
+        Untuk bahan saos campurkan semua dan aduk rata.\n
+        Masukkan kulkas untuk buah dan saosnya. Parut kejunya\n
+        Jika sudah dingin campurkan buah dengan saos dan siap dimakan. Tambahkan keju parut</item>
+        <item>Marinasi paha ayam dengan garam dan lada hitam dan bumbu baberque secukupnya (diamkan 30 menit)\n
+        Rebus wortel buncis beri garam secukupnya, jika dirasa sudah matang angkat dan tiriskan rendam di air dingin agar tidak layu (sisihkan)\n
+        Taburi kentang dengan garam dan lada bubuk hitam secukupnya (diamkan 5 menit)\n
+        Lalu goreng kentang sampai matang dan garing (sisihkan)\n
+        Lalu setelah paha ayam dimarinasi, kita masak dengan bumbu baberque sampai matang\n
+        Lalu tata sajikan ayam kentang buncis di piring hingga cantik lalu sajikan</item>
+        <item>Rebus daging sampai empuk. Lalu sisihkan. Karena saya pake iga, jadi saya presto dulu.\n
+        Tumis bumbu halus lalu masukan bumbu aromatik. Masak sampai harum dan tidak bau langu. Setelah itu masukan ke panci berisi daging dan air kaldu, rebus lagi sampai bumbu meresap\n
+        Beri seasoning garam, gula dan kaldu bubuk. Lalu angkat daging. Tiriskan dan potong2 (kalo saya, dr awal sdh sy potong kecil, biar ga repot keluarin dr panci)\n
+        Terakhir beri kuah soto dengan santan instant. Aduk rata dan test rasa. Angkat dan sajikan bersama potongan tomat, irisan daun bawang, emping, bawang goreng dan perasan jerus nipis.</item>
+        <item>
+            Siapkan ramekin atau wadah anti panas lainnya. Siapkan bahan Caramel.\n
+            Masukkan gula pasir ke dalam panci/sauce pan/teflon anti lengket. Masak menggunakan api sedang hingga gula larut dan berubah warna menjadi kecoklatan. Goyang-goyangkan panci untuk meratakan atau bisa dengan diaduk sesekali. Kemudian tambahkan Air Panas. Aduk rata. Angkat. Segera tuang caramel ke dalam wadah/ramekin. Sisihkan.\n
+            Siapkan bahan puding. Siapkan panci, tuang susu fullcream dan SKM ke dalam panci lalu aduk rata. Masak susu dengan api sedang, masak hingga mulai mendidih lalu segera matikan kompor. Biarkan susu agak hangat.\n
+            Dalam wadah, kocok telur menggunakan whisk atau garpu. Setelah susu hangat tuang susu kedalam kocokan telur sedikit demi sedikit sambil diaduk dengan whisk.Tambahkan 1 sdt Pasta Vanilla, aduk rata kembali Saring adonan hingga tidak ada telur yang bergerindil. Saya saring sebanyak 2 kali\n
+            Tuang adonan puding ke dalam wadah ramekin secara bertahap. Tuang secukupnya, ya. Jangan isi terlalu penuh. Tutup wadah dengan alumunium foil. Siap dikukus\n
+            Siapkan kukusan. Beri air secukupnya, panaskan hingga kukusan hangat saja (tidak sampai mendidih dan banyak uap) kemudian beri serbet pada dasar rak kukusan. Tata ramekin di atas serbet tersebut. Kukus dengan api kecil Kukus selama 20-30 menit menggunkan api kecil. Sy apinya kurang kecil sehingga permukaan puding kurang mulus.\n
+            Dinginkan di kulkas minimal 1 jam. Dinginkan dalam kulkas dengan kondisi wadah masih ditutup alumunium foil. Setelah dingin, keluarkan dari kulkas lalu sayat bagian pinggir puding menggunakan pisau dengan mengikuti putaran wadah ramekin. Tuang puding ke atas piring, sajikan
 
+        </item>
+        <item>
+            Cuci bersih udang hilangkan kepalanya, sisihkan\n
+            Cincang bawang putih, iris2 daun bawang,tomat dan cabe merah\n
+            Tumis bawang putih hingga harum kemudian masukan bawang Bombay tomat dan cabe, masak hingga harum\n
+            Masukan wortel dan udang, masak hingga udang berubah warna, kemudian tambahkan sedikit air\n
+            Jika sudah mendidih masukan garam, gula, penyedap dan saus tiram, masak hingga wortel empuk\n
+            Koreksi rasa, jika sudah pas siap disajikan\n
+            Selamat mencoba!🙂
+        </item>
+        <item>
+            Potong fillet dada ayam yang sudah dicuci,tambahkan bumbu marinasi,tambahkan maizena + air\n
+            Aduk merata,sisihkan,sementara potong2 bawang bombay dan paprika,sisihkan. Siapkan bumbu saus dimangkuk, saus tomat, cuka, gula,kecap asin, lada bubuk juga maizena\n
+            Tambahkan air,aduk merata,sisihkan\n
+            Goreng ayam marinasi hingga keemasan,sisihkan\n
+            Panaskan margarin, tumis bawang bombay hingga layu, masukkan paprika\n
+            Aduk-aduk hingga layu,lalu masukkan larutan bumbu saus,aduk masak hingga meletup, koreksi rasa, jika sudah pas,masukkan ayam\n
+            Aduk hingga merata,pindahkan ke piring,taburi wijen sangrai, sajikan
+        </item>
+        <item>
+            Didihkan gula merah, gula putih, garam dengan air secukupya\n
+            Setelah mendidih, masukan parutan kelapa muda, aduk sampai merata dan matangkan\n
+            Campur semua bahan adonan kecuali minyak goreng, dengan masukan air sedikit demi sedikit agar adonan tidak menggrindil\n
+            Setelah adonan basah siap, masukan minyak, dan aduk rata. Saring ke wadah lain agar adonan kulit halus\n
+            Ambil 1 sendok sayur untuk sekali masak ke pan teflon size 20 atau pakai crepe Maker, kalau saya pakai crepes maker\n
+            Setelah adonan kulit matang, kasih isian unti, kemudian lipat dan gulung. Dadar gulung siap dinikmati. Kalau untuk jualan agar rapih digulung dengan plastik dan diberi sticker, selamat mencoba
+        </item>
     </string-array>
 </resources>
